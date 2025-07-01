@@ -1,22 +1,12 @@
-function calcolaPrezzo () {
-  const km = persefloat ( document. getElementsById ("km"). value) ; //persfloat perche i km possono avere i decimali
-  const eta = persint (document.getElementById ("età").value ); // perseIntla età deve essere un numero intero
+//Prezzo = km × €0.21
 
-}
+//Sconto 20% se < 18 anni
 
-if (isNaN(km) || isNaN(eta) || km <= 0 || eta <= 0) {
-    document.getElementById("risultato").innerText = "Inserisci valori validi.";
-    
-  }
+//Sconto 40% se > 65 anni
 
-const prezzoBase = km * 0.21;
-let sconto =0;
 
-if (età < 18) {
-   sconto = 0.20;
-                                      
-}
-else if (età > 65) {
-    sconto = 0.40;
 
-}
+
+
+
+
