@@ -23,7 +23,7 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 
 SOTTO PROBLEMI
-#descrizione dell ezercizio:
+# descrizione dell ezercizio:
 
 - Il programma dovrà chiedere all'utente
 - il numero di chilometri che vuole percorrere
@@ -33,8 +33,13 @@ SOTTO PROBLEMI
 prezzo_base= km *0.21
 
 
- #sconto
+ # sconto
  - se età < 18 : sconto 20%
  - se età >65 :  sconto 40%
  - altrimenti : non si fa lo sconto
- 
+
+ # formatazzione del prezzo
+ - usare cifre decimali
+ - usare €
+
+
