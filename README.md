@@ -21,19 +21,17 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 
 
-
 SOTTO PROBLEMI
-# descrizione dell ezercizio:
-
+# descrizione dell ezercizio
 - Il programma dovrà chiedere all'utente
 - il numero di chilometri che vuole percorrere
 - l'età del passeggero
 
- #calcolo prezzo base:
-prezzo_base= km *0.21
+# calcolo prezzo base:
+ - prezzo_base= km *0.21
 
 
- # sconto
+# sconto
  - se età < 18 : sconto 20%
  - se età >65 :  sconto 40%
  - altrimenti : non si fa lo sconto
@@ -42,4 +40,5 @@ prezzo_base= km *0.21
  - usare cifre decimali
  - usare €
 
-
+ # risultato
+ - mostrare il prezzo con gli sconti del biglietto
