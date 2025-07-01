@@ -4,8 +4,19 @@ function calcolaPrezzo () {
 
 }
 
-if (NaN(km) || NaN (età) ||km <= 0 ||età <=0) {
-    document. getElementById ("risultato") . innerText = "inserisci valori validi";
-    return; 
-}
+if (isNaN(km) || isNaN(eta) || km <= 0 || eta <= 0) {
+    document.getElementById("risultato").innerText = "Inserisci valori validi.";
+    
+  }
 
+const prezzoBase = km * 0.21;
+let sconto =0;
+
+if (età < 18) {
+   sconto = 0.20;
+                                      
+}
+else if (età > 65) {
+    sconto = 0.40;
+
+}
