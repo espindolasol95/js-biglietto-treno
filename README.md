@@ -29,3 +29,6 @@ Il programma dovrà chiedere all'utente
 il numero di chilometri che vuole percorrere
 l'età del passeggero
 
+1. #calcolo prezzo base:
+prezzo_base= km *0.21
+
